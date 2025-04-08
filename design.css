@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover; /* Adjusted background size for better responsiveness */
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+  background-position: center center;
+  margin: 0; /* Remove default margin for better appearance */
+  padding: 0;
+  
+}
+
+.paper {
+  background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+  background-size: contain; /* Adjusted background size for better responsiveness */
+  background-position: center center;
+  padding: 5vw; /* Adjusted padding for better responsiveness */
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 90%; /* Adjusted width for better responsiveness */
+  max-width: 100px; /* Added max-width for better responsiveness/ */
+  width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.paper.heart {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Maintain aspect ratio for a circular shape */
+  border-radius: 50%;
+  width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;/
+
+}
+
+.paper.image {
+  padding: 5%; /* Adjusted padding for better responsiveness */
+  width: 100%; /* Adjusted width for better responsiveness */
+  max-width: 100px; /* Added max-width for better responsiveness */
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.paper.image p {
+  font-size: 16px; /* Adjusted font size for better responsiveness */
+  width: 100%; /* Adjusted width for better responsiveness */
+  max-width: 100px; /* Added max-width for better responsiveness */
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/31/19/25/cartoon-1294994__340.png');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 50%; /* Adjusted background size for better responsiveness */
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px; /* Adjusted font size for better responsiveness */
+  color: black;
+}
+
+.p1{
+ 
+  font-size: x-small;
+}
+.p2{
+ 
+  font-size: x-small;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 600px) {
+  .paper {
+    padding: 10vw; /* Adjusted padding for smaller screens */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;/
+  }
+
+  .paper.image p {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+  }
+
+  p {
+    font-size: 18px; /* Adjusted font size for smaller screens */
+  }
+
+
+}
+
